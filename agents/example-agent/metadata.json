@@ -1,0 +1,19 @@
+{
+    "id": "agentxyz",
+    "name": "Agent XYZ",
+    "type": "Chatbot",
+    "owner": {
+      "name": "Company or Individual Name",
+      "contact": "Contact Information"
+    },
+    "known_chains": [{
+      "network": "Ethereum",
+      "address": "0x123...",
+      "smart_contract": "SmartContractName",
+      "abi": "URL or path to ABI"
+    }],
+    "version": "1.0",
+    "last_updated": "YYYY-MM-DD",
+    "description": "A brief description of what the agent does and its capabilities."
+  }
+  
