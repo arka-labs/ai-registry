@@ -1,22 +1,23 @@
 {
-    "name": "hemanth-sayy-helloo-function-packagee-1",
-    "version": "1.0.5",
-    "description": "function to say hello",
-    "main": "./dist/index.js",
-    "module": "./dist/index.mjs",
-    "types": "./dist/index.d.ts",
-    "scripts": {
-        "codegen": "ts-node ./scripts/build.ts",
-        "build": "tsup src/index.ts"
-    },
-    "keywords": [
-        "hello"
-    ],
-    "author": "Njoku",
-    "license": "MIT",
-    "devDependencies": {
-        "ts-node": "^10.9.2",
-        "tsup": "^8.3.5",
-        "typescript": "^5.7.2"
-    }
+  "name": "hemanth-sayy-helloo-function-packagee-1",
+  "version": "1.0.6",
+  "description": "Arka Registry",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist/**",
+    "codegen": "ts-node ./scripts/build.ts",
+    "build": "npm run codegen; npm run clean; tsup"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "Njoku",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
 }

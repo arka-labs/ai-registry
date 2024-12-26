@@ -4,7 +4,7 @@
   const agents: Record<string, Agent> = {
   "cosmos-agent": {
     "metadata": {
-      "id": "cosmos-agent-1",
+      "id": "cosmos-agent",
       "name": "Agent XYZ",
       "type": "Chatbot",
       "owner": {
@@ -13,8 +13,8 @@
       },
       "known_chains": [
         {
-          "network": "Ethereum",
-          "address": "0x123...",
+          "network": "Cosmos",
+          "address": "cosmos...",
           "smart_contract": "SmartContractName",
           "abi": "URL or path to ABI"
         }
