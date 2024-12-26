@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",                    // Set the target JavaScript version
+      "module": "ESNext",                   // Use ESNext module resolution
+      "moduleResolution": "Node",           // Node.js module resolution strategy
+      "strict": true,                       // Enable strict type checking
+      "esModuleInterop": true,              // Enable compatibility with CommonJS modules
+      "forceConsistentCasingInFileNames": true, // Enforce consistent casing in file names
+      "skipLibCheck": true,                 // Skip type checking for library files
+      "outDir": "dist",                     // Output directory for compiled files
+      "declaration": true,                  // Generate declaration files
+      "declarationMap": true,               // Generate .d.ts.map files for debugging
+      "sourceMap": true,                    // Generate .js.map files for debugging
+      "resolveJsonModule": true,            // Allow importing JSON files as modules
+      "isolatedModules": true,              // Enforce each file as its own module
+      "allowSyntheticDefaultImports": true  // Allow default imports from modules without them
+    },
+    "include": ["src/**/*.ts"],             // Include all TypeScript files in src/
+    "exclude": ["node_modules", "dist", "scripts"] // Exclude unnecessary folders
+  }
+  

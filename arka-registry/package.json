@@ -1,0 +1,14 @@
+{
+  "name": "arka-registry",
+  "version": "1.0.0",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build:agents": "node scripts/build-agents.js",
+    "build": "npm run build:agents && tsup"
+  },
+  "devDependencies": {
+    "tsup": "^7.0.0"
+  }
+}
