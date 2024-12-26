@@ -4,7 +4,7 @@
   const agents: Record<string, Agent> = {
   "cosmos-agent": {
     "metadata": {
-      "id": "agentxyz",
+      "id": "cosmos-agent-1",
       "name": "Agent XYZ",
       "type": "Chatbot",
       "owner": {
