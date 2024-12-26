@@ -1,0 +1,39 @@
+ {
+    name: "CosmosAgent",
+    username: "cosmos-agent",
+    id: "10",
+    clients: [],
+    modelProvider: "akash_chat_api",
+    settings: {
+        secrets: {},
+    },
+    
+    system: "",
+    bio: [
+        
+    ],
+    lore: [
+        
+    ],
+    messageExamples: [
+            ],
+    postExamples: [
+    ],
+    topics: [
+        
+    ],
+    style: {
+        all: [
+            
+        ],
+        chat: [
+           
+        ],
+        post: [
+            
+        ],
+    },
+    adjectives: [
+        
+    ],
+};
