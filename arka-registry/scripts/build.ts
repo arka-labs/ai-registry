@@ -1,6 +1,8 @@
+// @ts-nocheck
+
 import * as fs from "fs";
 import * as path from "path";
-import { Agent } from "../src/types/agent"; // Ensure this path points to the correct location
+import { Agent } from "../src/types/agent";
 
 const AGENTS_DIR = path.resolve(__dirname, "../../agents");
 const OUTPUT_FILE = path.resolve(__dirname, "../src/data/agents.ts");

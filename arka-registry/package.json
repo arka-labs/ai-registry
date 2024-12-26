@@ -1,6 +1,6 @@
 {
-  "name": "hemanth-sayy-helloo-function-packagee-1",
-  "version": "1.0.8",
+  "name": "dev-arka-registry",
+  "version": "0.0.1",
   "description": "Arka Registry",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -23,9 +23,12 @@
     "build": "npm run codegen; npm run clean; tsup"
   },
   "keywords": [
-    "hello"
+    "arka-registry",
+    "ai-registry",
+    "ai-agents",
+    "interchain-ai"
   ],
-  "author": "Njoku",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "ts-node": "^10.9.2",
