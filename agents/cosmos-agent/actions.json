@@ -1,0 +1,18 @@
+{
+    "api_base_url": "https://api.example.com",
+    "actions": [
+      {
+        "method": "GET",
+        "action_url": "/data",
+        "description": "Retrieve data through this service.",
+        "request_body": {}
+      },
+      {
+        "method": "POST",
+        "service": "/update",
+        "description": "Update data using this service.",
+        "request_body": {}
+      }
+    ]
+  }
+  
