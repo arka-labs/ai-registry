@@ -9,7 +9,7 @@
       },
       {
         "method": "POST",
-        "service": "/update",
+        "action_url": "/update",
         "description": "Update data using this service.",
         "request_body": {}
       }
