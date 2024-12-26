@@ -1,6 +1,6 @@
 {
     "name": "hemanth-sayy-helloo-function-packagee-1",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "description": "function to say hello",
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
