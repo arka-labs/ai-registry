@@ -1,5 +1,5 @@
-import agents from "./data/agents"; // Ensure this is a properly structured object
-import { Agent } from "./types/agent"; // Ensure the Agent type is correctly defined
+import agents from "./data/agents";
+import { Agent } from "./types/agent";
 
 /**
  * ArkaRegistry is a class responsible for managing a collection of agents.
