@@ -1,10 +1,10 @@
 [
     {
       "name":"akash-chat",
-      "display_name":"Akash Chat"
+      "display_name":"AKASH_CHAT_API"
     },
     {
       "name":"openai",
-      "display_name":"OpenAI"
+      "display_name":"OPENAI"
     }
   ]
