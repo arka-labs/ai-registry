@@ -44,3 +44,8 @@ export interface Agent {
   actions: ActionsConfig;
   persona: Persona;
 }
+
+export interface Provider {
+  name: string;
+  display_name: string;
+}
