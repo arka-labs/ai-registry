@@ -1,6 +1,6 @@
 {
   "name": "arka-ai-registry",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Arka AI Registry",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
