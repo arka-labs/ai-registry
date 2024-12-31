@@ -1,5 +1,7 @@
 import agents from "./data/agents";
 import { Agent } from "./types/agent";
+import { Provider } from "./types/provider";
+import providers from "./data/provider";
 
 /**
  * ArkaRegistry is a class responsible for managing a collection of agents.
@@ -7,9 +9,11 @@ import { Agent } from "./types/agent";
  */
 class ArkaRegistry {
   private agents: Record<string, Agent>;
+  private providers: Provider[];
 
   constructor() {
     this.agents = agents || {}; // Default to an empty object if `agents` is undefined
+    this.providers = providers
   }
 
   /**
@@ -35,6 +39,14 @@ class ArkaRegistry {
    */
   public getAgentNames(): string[] {
     return Object.keys(this.agents);
+  }
+
+  /**
+   * Retrieves all providers.
+   * @returns providers-list
+   */
+  public getProviders(): Provider[] {
+    return this.providers;
   }
 }
 
